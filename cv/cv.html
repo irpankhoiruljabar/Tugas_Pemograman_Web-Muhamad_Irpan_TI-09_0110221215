@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: white;
+        }
+
+        .container {
+            display: flex;
+            border: 2px solid black;
+            margin: 30px auto;
+            width: 600px;
+            height: 700px;
+
+            box-sizing: border-box;
+            flex-wrap: wrap;
+            background-color: #1C2833;
+        }
+
+        .head {
+            width: 100%;
+            height: 210px;
+            display: flex;
+        }
+
+
+        .foto img {
+            height: 130px;
+            width: 145px;
+            margin-top: 45px;
+            margin-left: 25px;
+        }
+
+        .nama {
+            color: white;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            margin-left: 20px;
+            margin-top: 70px;
+        }
+
+        .kiri {
+            display: flex;
+            width: 40%;
+            height: 420px;
+            margin-bottom: 68px;
+            background-color: #D6DBDF;
+            flex-wrap: wrap;
+
+        }
+
+        .kiri .profil {
+            padding-left: 10px;
+            padding-top: 20px;
+            width: 100%;
+
+        }
+
+        .kiri .profil p {
+            font-size: 11px;
+
+        }
+
+        .kiri .kontak {
+            padding-left: 10px;
+
+            width: 100%;
+
+        }
+
+        .kiri .kontak p {
+            font-size: 11px;
+
+        }
+
+        .kiri .kontak {
+            padding-left: 10px;
+            padding-top: 10px;
+            width: 100%;
+
+        }
+
+        .kiri .kerja {
+            padding-left: 10px;
+            padding-bottom: 80px;
+            width: 100%;
+
+        }
+
+        .kiri .kerja h5 {
+            padding-top: 10px;
+
+        }
+
+        .kiri .kerja p {
+            font-size: 11px;
+
+        }
+
+
+
+        .kanan {
+            display: flex;
+            width: 60%;
+            height: 420px;
+            margin-bottom: 68px;
+            background-color: #FDFEFE;
+            flex-wrap: wrap;
+        }
+
+        .kanan .akademik {
+            padding-left: 10px;
+            padding-top: 20px;
+            width: 100%;
+
+        }
+
+        .kanan .akademik p {
+            font-size: 11px;
+
+        }
+
+        .kanan .akademik #jurusan {
+            font-size: 10px;
+        }
+
+        .kanan .skils {
+            padding-left: 10px;
+            padding-bottom: 45px;
+            width: 100%;
+
+        }
+
+
+        .kanan .skils ul {
+            font-size: 11px;
+            padding-left: 10px;
+
+        }
+
+        .kanan .skils #lainnya {
+            padding-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="head">
+            <div class="foto">
+                <img src="irpan.jpg" alt="foto irpan">
+            </div>
+            <div class="nama">
+                <h2>Muhamad <br> Irpan </h2>
+                <p>Web Developer</p>
+            </div>
+        </div>
+        <div class="kiri">
+            <div class="profil">
+                <h5>PROPIL SINGKAT</h5>
+                <p> Saya adalah seorang alumni mahasantri jurusan pengembangan perangkat lunak. di Pesantren
+                    Teknologi Dan Komunikasi (PeTIK), Dengan demikian saya mempunyai dasar di bidang teknologi maupun
+                    agama
+                    yang mencerminkan sifat jujur, amanah , bekerja keras dan lainya </p>
+            </div>
+            <div class="kontak">
+                <h5>INFORMASI KONTAK</h5>
+                <p>Alamat: Leuwidamar, Lebak-
+                    Banten</p>
+                <p>Whatsapp: 085882822921</p>
+                <p>Instagram:
+                    https://www.instagram.com/irpan
+                    khoirul/</p>
+                <p>Facebook:https://www.facebook.c
+                    om/irpong.namikaje</p>
+            </div>
+            <div class="kerja">
+                <h5>PENGALAMAN KERJA</h5>
+                <p>Fresh Graduate</p>
+            </div>
+        </div>
+        <div class="kanan">
+            <div class="akademik">
+                <h5>RIWAYAT AKADEMIK</h5>
+                <p><b>Non Formal</b></p>
+                <p>Pesantren Teknologi Dan Komunikasi
+                    (PeTIK) - Lulus</p>
+                <p id="jurusan">- Jurusan Pengembangan Perangkat Lunak</p>
+                <p><b>Formal</b></p>
+                <p>STT Terpadu Nurul Fikri - Semester 1</p>
+                <p id="jurusan">-Tehnik Informatika</p>
+                <P>SMAN 1 lEUWIDAMAR - Lulus</P>
+                <p id="jurusan">- Ilmu Pengatahuan alam</p>
+
+            </div>
+            <div class="skils">
+                <h5>KEAHLIAN UTAMA</h5>
+                <ul>
+                    <li>Databases MySQL</li>
+                    <li>Menguasai HTML, CSS Dan PHP</li>
+                    <li>Bisa Menggunakan JavaScript, Dan Java</li>
+                    <li>Menguasai Framework Laravel</li>
+                    <li>Menguasai library framework CSS (Bootstrap)</li>
+                    <li>Bisa Menggunakan GitHub</li>
+                    <li>Bisa Menggunakan android studio native</li>
+                </ul>
+                <h5 id="lainnya">KEAHLIAN LAINNYA</h5>
+                <ul>
+                    <li>Mengetahui dasar-dasar penerapan jaringan</li>
+                    <li>Bisa Mendesain web dan produk digital</li>
+                    <li>Bisa Mengedit foto, vidio Dan ilustrasi digital</li>
+                </ul>
+            </div>
+
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
