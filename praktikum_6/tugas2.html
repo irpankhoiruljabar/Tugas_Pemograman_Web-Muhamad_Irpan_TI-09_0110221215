@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 6.2</title>
+
+    <style>
+        body {
+            box-sizing: border-box;
+            padding: 5px;
+
+        }
+
+        .container {
+            display: flex;
+
+
+        }
+
+        .container>div {
+            color: black;
+            width: 100px;
+            margin: 0;
+            text-align: start;
+            font-size: 30px;
+        }
+
+        span {
+            margin: 30px;
+        }
+
+
+        .nav {
+            flex-grow: 2;
+            background-color: pink;
+            padding-top: 10px;
+        }
+
+        .right {
+            flex-grow: 8;
+        }
+
+        .header {
+            background-color: khaki;
+            line-height: 75px;
+        }
+
+        .middle {
+            display: flex;
+            background-color: pink;
+            line-height: 475px;
+        }
+
+        .article {
+            flex-grow: 8;
+            background-color: white;
+        }
+
+        .aside {
+            flex-grow: 2;
+            background-color: #03DAC5;
+
+        }
+
+        .footer {
+            background-color: khaki;
+            line-height: 75px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="nav"><span>Nav</span>
+        </div>
+        <div class="right">
+            <div class="header"><span>Header</span></div>
+            <div class="middle">
+                <div class="article"><span>Article</span></div>
+                <div class="aside"><span>Aside</span></div>
+            </div>
+            <div class="footer"><span>Footer</span></div>
+        </div>
+    </div>
+
+</body>
+
+</html>
